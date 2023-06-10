@@ -31,4 +31,6 @@ Route::post('/register', [SignUpController::class, 'registerPost'])->name('regis
 
 Route::get('/informasitoko', [InformasiTokoController::class, 'melihatInfoToko']);
 
-Route::get('/buattoko1', [BuatTokoController::class, 'buattoko']);
+Route::get('/buattoko1', [BuatTokoController::class, 'buattoko1'])->name('buattoko1');
+Route::get('/buattoko2', [BuatTokoController::class, 'buattoko2'])->name('buattoko2');
+Route::get('/buattoko3', [BuatTokoController::class, 'buattoko3'])->name('buattoko3');
