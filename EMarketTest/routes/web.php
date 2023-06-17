@@ -59,3 +59,12 @@ Route::get('/barang/preview/{id}',[PreviewBarangController::class, 'view']);
 //Routing Hapus Barang//
 Route::get('/barang/hapus/{id}',[HapusBarangController::class, 'hapus']);
 // Route::get('/informasiBarang', [homeController::class, 'informasiBarang']);
+
+Route::get('/register', [SignUpController::class, 'register'])->name('register');
+Route::post('/register', [SignUpController::class, 'registerPost'])->name('register');
+
+Route::get('/informasitoko', [InformasiTokoController::class, 'melihatInfoToko']);
+
+Route::get('/buattoko1', [TokoController::class, 'buattoko1'])->name('buattoko1');
+Route::get('/buattoko2', [TokoController::class, 'buattoko2'])->name('buattoko2');
+Route::get('/buattoko3', [TokoController::class, 'buattoko3'])->name('buattoko3');
