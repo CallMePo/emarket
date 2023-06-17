@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Barang;
 use App\Models\toko;
 use Illuminate\Http\Request;
 
@@ -33,9 +34,12 @@ class homeController extends Controller
     }
 
     public function hargaBarang() {
-
+        $barang1 = Barang::find(1);
+        $barang2 = Barang::find(2);
+        $barang3 = Barang::find(3);
+        $barang4 = Barang::find(4);
         
-        return view('harga-barang-home');
+        return view('harga-barang-home', compact('barang1', 'barang2', 'barang3', 'barang4'));
         
     }
 

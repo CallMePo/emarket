@@ -829,11 +829,11 @@
                 class="harga-barang-home-content-block"
               />
               <span class="harga-barang-home-text02 UI-16Semi">
-                <span>Beras Mentik</span>
+                <span>{{ $barang1->namaBarang }}</span>
               </span>
               <span class="harga-barang-home-text04 UI-14Regular">
                 <span>
-                  <span>Rp. 12,514 / Kg</span>
+                  <span>Rp. {{ $barang1->hargaBarang }} / Kg</span>
                   <br />
                   <span></span>
                 </span>
@@ -851,11 +851,11 @@
                 class="harga-barang-home-content-block1"
               />
               <span class="harga-barang-home-text09 UI-16Semi">
-                <span>Ikan Mujair Segar</span>
+                <span>{{ $barang2->namaBarang }}</span>
               </span>
               <span class="harga-barang-home-text11 UI-14Regular">
                 <span>
-                  <span>Rp. 30,000 / Kg</span>
+                  <span>Rp. {{ $barang2->hargaBarang }} / Kg</span>
                   <br />
                   <span></span>
                 </span>
@@ -874,14 +874,14 @@
               />
               <span class="harga-barang-home-text16 UI-16Semi">
                 <span>
-                  <span>Ikan Bandeng Segar</span>
+                  <span>{{ $barang3->namaBarang }}</span>
                   <br />
                   <span></span>
                 </span>
               </span>
               <span class="harga-barang-home-text21 UI-14Regular">
                 <span>
-                  <span>Rp. 34,000 / Kg</span>
+                  <span>Rp. {{ $barang3->hargaBarang }} / Kg</span>
                   <br />
                   <span></span>
                 </span>
@@ -900,14 +900,14 @@
               />
               <span class="harga-barang-home-text26 UI-16Semi">
                 <span>
-                  <span>Cabe Merah Keriting</span>
+                  <span>{{ $barang4->namaBarang }}</span>
                   <br />
                   <span></span>
                 </span>
               </span>
               <span class="harga-barang-home-text31 UI-14Regular">
                 <span>
-                  <span>Rp. 24,250 / Kg</span>
+                  <span>Rp. {{ $barang4->hargaBarang }} / Kg</span>
                   <br />
                   <span></span>
                 </span>
