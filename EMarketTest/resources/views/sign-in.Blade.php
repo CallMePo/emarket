@@ -349,21 +349,41 @@
             <span class="sign-in-text UI-30Semi"><span>Sign In</span></span>
           </div>
           <div class="sign-in-input-text">
-            <img
-              alt="BGI144"
-              src="public/external/bgi144-1m1.svg"
-              class="sign-in-bg1"
-            />
-            <span class="sign-in-text02 UI-16Medium"><span>Email</span></span>
+            <div>
+              <style>
+                .search-input {
+                  width: 150%;
+                  border: 1px solid #121212;
+                  border-radius: 10px;
+                  padding: 5px;
+                  background-color: #ffffff;
+                }
+              </style>
+              
+              <form action="/cari-barang.html" method="get">
+                <input type="text" name="query" placeholder="Email" class="search-input">
+              </form>
+              </div>
+            {{-- <span class="sign-in-text02 UI-16Medium"><span>Email</span></span> --}}
           </div>
           <div class="sign-in-input-text1">
-            <img
-              alt="BGI144"
-              src="public/external/bgi144-ou6z.svg"
-              class="sign-in-bg2"
-            />
+            <div>
+              <style>
+                .search-input {
+                  width: 150%;
+                  border: 1px solid #121212;
+                  border-radius: 10px;
+                  padding: 5px;
+                  background-color: #ffffff;
+                }
+              </style>
+              
+              <form action="/cari-barang.html" method="get">
+                <input type="text" name="query" placeholder="Password" class="search-input">
+              </form>
+              </div>
             <span class="sign-in-text04 UI-16Medium">
-              <span>Password</span>
+              {{-- <span>Password</span> --}}
             </span>
             <span class="sign-in-text06"><span>Tunjukkan</span></span>
           </div>

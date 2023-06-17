@@ -10,6 +10,7 @@ use App\Http\Controllers\LupaPasswordController;
 use App\Http\Controllers\SignOutController;
 use App\Http\Controllers\PreviewBarangController;
 use App\Http\Controllers\HapusBarangController;
+use App\Http\Controllers\SignUpController;
 
 /*
 |--------------------------------------------------------------------------

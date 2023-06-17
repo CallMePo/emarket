@@ -369,31 +369,62 @@
             <span class="sign-up-text03 UI-30Semi"><span>Sign Up</span></span>
           </div>
           <div class="sign-up-input-text">
-            <img
-              alt="BGI144"
-              src="public/external/bgi144-mpsv.svg"
-              class="sign-up-bg1"
-            />
-            <span class="sign-up-text05 UI-16Medium"><span>Nama</span></span>
+            <div>
+              <style>
+                .search-input {
+                  width: 150%;
+                  border: 1px solid #121212;
+                  border-radius: 10px;
+                  padding: 5px;
+                  background-color: #f2f2f2;
+                }
+              </style>
+              
+              <form action="/cari-barang.html" method="get">
+                <input type="text" name="query" placeholder="Nama" class="search-input">
+              </form>
+              </div>
+            {{-- <span class="sign-up-text05 UI-16Medium"><span>Nama</span></span> --}}
           </div>
           <div class="sign-up-input-text1">
-            <img
-              alt="BGI144"
-              src="public/external/bgi144-wb4.svg"
-              class="sign-up-bg2"
-            />
-            <span class="sign-up-text07 UI-16Medium"><span>Email</span></span>
+            <div>
+              <style>
+                .search-input {
+                  width: 150%;
+                  border: 1px solid #121212;
+                  border-radius: 10px;
+                  padding: 5px;
+                  background-color: #f2f2f2;
+                }
+              </style>
+              
+              <form action="/cari-barang.html" method="get">
+                <input type="text" name="query" placeholder="Email" class="search-input">
+              </form>
+              </div>
+            {{-- <span class="sign-up-text07 UI-16Medium"><span>Email</span></span> --}}
           </div>
           <div class="sign-up-input-text2">
-            <img
-              alt="BGI144"
-              src="public/external/bgi144-8p6b.svg"
-              class="sign-up-bg3"
-            />
+            <div>
+              <style>
+                .search-input {
+                  width: 150%;
+                  border: 1px solid #121212;
+                  border-radius: 10px;
+                  padding: 5px;
+                  background-color: #ffffff;
+                  height: 80%;
+                }
+              </style>
+              
+              <form action="/cari-barang.html" method="get">
+                <input type="text" name="query" placeholder="Password" class="search-input">
+              </form>
+              </div>
             <span class="sign-up-text09 UI-16Medium">
-              <span>Password</span>
+              {{-- <span>Password</span> --}}
             </span>
-            <span class="sign-up-text11"><span>Tunjukkan</span></span>
+            {{-- <span class="sign-up-text11"><span>Tunjukkan</span></span> --}}
           </div>
           <a href="sign-in.html" class="sign-up-button-primary">
             <span class="sign-up-text13 UI-16Semi"><span>Sign Up</span></span>
