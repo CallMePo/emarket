@@ -33,6 +33,8 @@ class homeController extends Controller
     }
 
     public function hargaBarang() {
+
+        
         return view('harga-barang-home');
         
     }
