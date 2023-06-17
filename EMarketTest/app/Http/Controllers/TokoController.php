@@ -9,7 +9,7 @@ class TokoController extends Controller
 {
     public function CariToko(Request $request) {
 
-        
+
         if ($request->has('search')) {
             $tokos = toko::where('namaToko', 'LIKE', '%' . $request->search . '%')->get();
         }else{
@@ -22,5 +22,12 @@ class TokoController extends Controller
     public function showDetailToko($id)  {
         $toko = toko::find($id);
         return view('informasi-toko', compact('toko'));
+    }
+    public function showDetailToko(){
+        return view('informasitoko');
+    }
+
+    public function showKontakToko(){
+        return view('kontaktoko');
     }
 }
