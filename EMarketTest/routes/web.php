@@ -68,3 +68,9 @@ Route::get('/informasitoko', [InformasiTokoController::class, 'melihatInfoToko']
 Route::get('/buattoko1', [TokoController::class, 'buattoko1'])->name('buattoko1');
 Route::get('/buattoko2', [TokoController::class, 'buattoko2'])->name('buattoko2');
 Route::get('/buattoko3', [TokoController::class, 'buattoko3'])->name('buattoko3');
+
+Route::get('/informasihargabarang', [BarangController::class, 'showListHargaBarang'])->name('informasihargabarang');
+Route::get('/informasibarang', [BarangController::class, 'showDetailBarang'])->name('informasibarang');
+
+Route::get('/informasitoko', [TokoController::class, 'showDetailToko'])->name('informasitoko');
+Route::get('/kontaktoko', [TokoController::class, 'showKontakToko'])->name('kontaktoko');
