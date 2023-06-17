@@ -584,11 +584,12 @@
     height: 24px;
     position: absolute;
   }
-  
+
     </style>
   </head>
   <body>
     <div>
+        {{-- cek!! --}}
       <!-- <link href="./cari-barang.css" rel="stylesheet" /> -->
 
       <div class="cari-barang-container">
@@ -660,7 +661,7 @@
                   background-color: #f2f2f2;
                 }
               </style>
-              
+
               <form action="{{ url('/cariBarang') }}" method="get">
                 <input type="search" name="search" placeholder="Cari Barang" class="search-input">
               </form>
@@ -672,7 +673,7 @@
               <div style="margin-bottom: 30px">
                 <span>
                   <span>{{ $barang->namaBarang }} <br></span>
-                  
+
                 </span>
               </div>
               @endforeach
